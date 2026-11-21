@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="548.0" prefWidth="859.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+   <children>
+      <Text layoutX="329.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Legal Representitive Dashboard" underline="true" />
+      <Button layoutX="49.0" layoutY="99.0" mnemonicParsing="false" onAction="#rrequestInmateVisitButton" text="Request Inmate Visit" />
+      <Button layoutX="49.0" layoutY="149.0" mnemonicParsing="false" onAction="#scheduleLegalVisitButton" text="Schedule Legal Visit" />
+      <Button layoutX="49.0" layoutY="200.0" mnemonicParsing="false" onAction="#checkVisitApprovalButton" text="Check Visit Approval" />
+      <Button layoutX="49.0" layoutY="249.0" mnemonicParsing="false" onAction="#viewNotificationsButton" text="Visit Notifications" />
+      <Button layoutX="49.0" layoutY="302.0" mnemonicParsing="false" onAction="#communicateWithInmate" text="Communicate with Inmate" />
+      <Button layoutX="49.0" layoutY="359.0" mnemonicParsing="false" onAction="#visitingRequirements" text="Visiting Requirements" />
+      <Button layoutX="49.0" layoutY="408.0" mnemonicParsing="false" onAction="#inmateLegalInfoButton" text="Inmate Legal Information" />
+      <Button layoutX="49.0" layoutY="469.0" mnemonicParsing="false" onAction="#recordConsultationButton" text="Record Consultation" />
+      <Button layoutX="626.0" layoutY="469.0" mnemonicParsing="false" onAction="#signOutButton" text="Sign Out" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="487.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+   <children>
+      <Text layoutX="319.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Record Medication" underline="true" />
+      <Text layoutX="153.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medication Name" />
+      <Text layoutX="153.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dosage" />
+      <Text layoutX="153.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity" />
+      <Text layoutX="153.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inmate ID" />
+      <TextField fx:id="medicationNameTextField" layoutX="278.0" layoutY="98.0" />
+      <TextField fx:id="dosageTextField" layoutX="278.0" layoutY="146.0" />
+      <TextField fx:id="quantityTextField" layoutX="278.0" layoutY="195.0" />
+      <TextField fx:id="inmateIDTextField" layoutX="278.0" layoutY="242.0" />
+      <Button layoutX="327.0" layoutY="296.0" mnemonicParsing="false" onAction="#saveMedicationButton" text="Save" />
+      <Button layoutX="327.0" layoutY="426.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+   </children>
+</AnchorPane>

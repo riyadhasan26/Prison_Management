@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+   <children>
+      <Text layoutX="242.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visiting Requirements" underline="true" />
+      <Text layoutX="51.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Required Identification" />
+      <Text layoutX="51.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Documents" />
+      <Text layoutX="51.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visiting Hours" />
+      <Text layoutX="51.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entry Procedure" />
+      <Button layoutX="274.0" layoutY="318.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+      <Label fx:id="identificationLabel" layoutX="260.0" layoutY="75.0" text="Label" />
+      <Label fx:id="documentsLabel" layoutX="260.0" layoutY="121.0" text="Label" />
+      <Label fx:id="hoursLabel" layoutX="260.0" layoutY="166.0" text="Label" />
+      <Label fx:id="procedureLabel" layoutX="260.0" layoutY="214.0" text="Label" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+   <children>
+      <Text layoutX="225.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Schedule Legal Visit" />
+      <Text layoutX="116.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Approved Visit" />
+      <Text layoutX="143.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visit Date" />
+      <DatePicker fx:id="visitDateDatePicker" layoutX="201.0" layoutY="131.0" />
+      <Button layoutX="251.0" layoutY="200.0" mnemonicParsing="false" onAction="#scheduleVisitButton" text="Schedule" />
+      <Button layoutX="252.0" layoutY="337.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+      <ComboBox fx:id="approvedVisitComboBox" layoutX="209.0" layoutY="71.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

@@ -5,7 +5,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="651.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+<AnchorPane prefHeight="651.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.MedicalStaffDashboardController">
    <children>
       <Button layoutX="85.0" layoutY="162.0" mnemonicParsing="false" onAction="#recordTreatmentButton" text="Record Treatment" />
       <Button layoutX="450.0" layoutY="162.0" mnemonicParsing="false" onAction="#updateMedicalRecordButton" text="Update Medical Record" />

@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.CheckVisitApprovalController">
    <children>
       <Text layoutX="246.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check Visit Approval" underline="true" />
       <Text layoutX="123.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Request ID" />

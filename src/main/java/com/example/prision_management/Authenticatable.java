@@ -1,4 +1,7 @@
 package com.example.prision_management;
 
-public class Authenticatable {
+public interface Authenticatable {
+
+    boolean login (String enteredId, String enteredPassword);
+    void logout();
 }

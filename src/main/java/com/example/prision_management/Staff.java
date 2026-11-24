@@ -2,7 +2,7 @@ package com.example.prision_management;
 
 public abstract class Staff extends User {
 
-    protected final String staffID;
+    protected String staffID;
     protected String position;
     protected String department;
     protected String assignedDuty;

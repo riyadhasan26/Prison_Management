@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="489.0" prefWidth="767.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.test_userViewController">
+   <children>
+      <Text layoutX="43.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" />
+      <TextField layoutX="92.0" layoutY="43.0" />
+      <TextField layoutX="98.0" layoutY="99.0" />
+      <Text layoutX="43.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAme" />
+      <TextField layoutX="98.0" layoutY="149.0" />
+   </children>
+</AnchorPane>

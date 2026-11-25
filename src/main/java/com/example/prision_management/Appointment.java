@@ -7,7 +7,7 @@ public class Appointment {
 
     private String prisonerId;
     private LocalDate appointmentDate;
-    private LocalTime appointmentTime;
+    private String appointmentTime;
     private String staffId;
 
     public String getStaffId() {
@@ -18,11 +18,11 @@ public class Appointment {
         this.staffId = staffId;
     }
 
-    public LocalTime getAppointmentTime() {
+    public String getAppointmentTime() {
         return appointmentTime;
     }
 
-    public void setAppointmentTime(LocalTime appointmentTime) {
+    public void setAppointmentTime(String appointmentTime) {
         this.appointmentTime = appointmentTime;
     }
 
@@ -42,7 +42,7 @@ public class Appointment {
         this.prisonerId = prisonerId;
     }
 
-    public Appointment(String prisonerId, LocalDate appointmentDate, LocalTime appointmentTime, String staffId) {
+    public Appointment(String prisonerId, LocalDate appointmentDate, String appointmentTime, String staffId) {
         this.prisonerId = prisonerId;
         this.appointmentDate = appointmentDate;
         this.appointmentTime = appointmentTime;

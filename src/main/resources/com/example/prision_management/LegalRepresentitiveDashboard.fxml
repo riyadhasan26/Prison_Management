@@ -4,8 +4,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="548.0" prefWidth="859.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.LegalRepresentitiveDashboardController">
+<AnchorPane fx:id="mainPane" prefHeight="548.0" prefWidth="859.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.LegalRepresentitiveDashboardController">
    <children>
       <Text layoutX="329.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Legal Representitive Dashboard" underline="true" />
       <Button layoutX="49.0" layoutY="99.0" mnemonicParsing="false" onAction="#rrequestInmateVisitButton" text="Request Inmate Visit" />

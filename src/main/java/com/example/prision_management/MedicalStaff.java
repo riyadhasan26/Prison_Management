@@ -62,7 +62,7 @@ public class MedicalStaff extends Staff {
                 count++;
             }
         }
-        return "Prisoner " + prisonerId + " has " + count + " treatment(s)";
+        return "Prisoner"+prisonerId+"has"+count+"treatment(s)";
     }
 
 

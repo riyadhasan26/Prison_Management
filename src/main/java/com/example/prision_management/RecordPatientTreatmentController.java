@@ -19,7 +19,9 @@ public class RecordPatientTreatmentController
     @javafx.fxml.FXML
     private AnchorPane mainPane;
     @javafx.fxml.FXML
-    private TextField inmateIDTextFIeld;
+    private DatePicker treatmentDateDatePicker;
+    @javafx.fxml.FXML
+    private TextField inmateIdTextFIeld;
 
     private void showAlert(String s){
         Alert a = new Alert(Alert.AlertType.ERROR);
@@ -89,7 +91,7 @@ public class RecordPatientTreatmentController
         }
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void treatmentDateDatePicker(ActionEvent actionEvent) {
     }
 }

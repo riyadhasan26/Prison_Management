@@ -17,7 +17,7 @@
       <TextField fx:id="scheduleTimeTextField" layoutX="241.0" layoutY="141.0" />
       <DatePicker fx:id="appointmentDateDatePicker" layoutX="241.0" layoutY="97.0" />
       <ComboBox fx:id="medicalStaffComboBox" layoutX="241.0" layoutY="179.0" prefWidth="150.0" />
-      <Button layoutX="241.0" layoutY="230.0" mnemonicParsing="false" onAction="#scheduleApppintmentButton" text="Schedule" />
+      <Button layoutX="241.0" layoutY="230.0" mnemonicParsing="false" onAction="#scheduleAppointmentButton" text="Schedule" />
       <Button layoutX="241.0" layoutY="341.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
       <ComboBox fx:id="inmateComboBox" layoutX="241.0" layoutY="56.0" prefWidth="150.0" />
    </children>

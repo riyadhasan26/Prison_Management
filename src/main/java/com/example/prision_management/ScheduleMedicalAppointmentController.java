@@ -43,7 +43,7 @@ public class ScheduleMedicalAppointmentController
         medicalStaffComboBox.getItems().addAll("S1", "S2");
     }
 
-    @Deprecated
+    @javafx.fxml.FXML
     public void scheduleAppointmentButton(ActionEvent actionEvent) {
 
         if (inmateComboBox.getValue() == null || medicalStaffComboBox.getValue() == null
@@ -95,7 +95,7 @@ public class ScheduleMedicalAppointmentController
         }
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void scheduleApppintmentButton(ActionEvent actionEvent) {
     }
 }

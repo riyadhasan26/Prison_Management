@@ -28,7 +28,7 @@ public class LegalRepresentitiveDashboardController
         }
     }
 
-    @Deprecated
+    @javafx.fxml.FXML
     public void requestInmateVisitButton(ActionEvent actionEvent) {
 
         try{
@@ -132,7 +132,7 @@ public class LegalRepresentitiveDashboardController
         }
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void rrequestInmateVisitButton(ActionEvent actionEvent) {
     }
 }

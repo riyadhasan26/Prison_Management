@@ -21,7 +21,7 @@ public class RecordLegalConsultationController
     @javafx.fxml.FXML
     private AnchorPane mainPane;
     @javafx.fxml.FXML
-    private TextField detaiilsTextField;
+    private TextField detailsTextField;
 
     private void showAlert(String s){
         Alert a = new Alert(Alert.AlertType.ERROR);

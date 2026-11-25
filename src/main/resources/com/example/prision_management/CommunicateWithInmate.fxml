@@ -17,7 +17,7 @@
       <Button layoutX="262.0" layoutY="351.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
       <Label fx:id="outputLabel" layoutX="253.0" layoutY="300.0" text="Output Label" />
       <ComboBox fx:id="inmateComboBox" layoutX="213.0" layoutY="62.0" prefWidth="150.0" />
-      <ComboBox fx:id="channelCombboBox" layoutX="213.0" layoutY="105.0" prefWidth="150.0" />
+      <ComboBox fx:id="channelComboBox" layoutX="213.0" layoutY="105.0" prefWidth="150.0" />
       <TextField fx:id="detailsTextField" layoutX="214.0" layoutY="150.0" />
    </children>
 </AnchorPane>

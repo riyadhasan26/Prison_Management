@@ -21,7 +21,7 @@ public class CommunicateWithInmateController
     @javafx.fxml.FXML
     private AnchorPane mainPane;
     @javafx.fxml.FXML
-    private ComboBox channelCombboBox;
+    private ComboBox channelComboBox;
 
     private void showAlert(String s){
         Alert a = new Alert(Alert.AlertType.ERROR);

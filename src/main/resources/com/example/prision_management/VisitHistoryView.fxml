@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="478.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.Visitor.VisitHistoryViewController">
+   <children>
+      <TableView fx:id="VisitHistoryTableView" layoutX="14.0" layoutY="14.0" prefHeight="398.0" prefWidth="694.0">
+        <columns>
+          <TableColumn fx:id="VisitHistoryTableviewPrisonerIdCol" prefWidth="195.2000093460083" text="Prisoner ID" />
+          <TableColumn fx:id="VisitHistoryTableViewDateCol" prefWidth="161.6000213623047" text="Date" />
+            <TableColumn fx:id="VisitHistoryTableViewVisitingHourCol" prefWidth="338.39996337890625" text="Visiting Hour" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="506.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.Visitor.VisitHourViewController">
+   <children>
+      <DatePicker fx:id="VisitHourVisitDateDatePicker" layoutX="246.0" layoutY="89.0" promptText="Visit Date" />
+      <Button layoutX="308.0" layoutY="142.0" mnemonicParsing="false" onAction="#handleVisitHourSearchButton" text="Search" />
+      <TableView fx:id="VisitHoutTableView" layoutX="14.0" layoutY="292.0" prefHeight="200.0" prefWidth="735.0">
+        <columns>
+          <TableColumn fx:id="VisitHourStartTimeCol" prefWidth="193.60000896453857" text="Start Time" />
+          <TableColumn fx:id="VisitHourEndTimeCol" prefWidth="249.59999084472656" text="End Time" />
+            <TableColumn fx:id="VisitHourAvailablityCol" prefWidth="287.20001220703125" text="Availability" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

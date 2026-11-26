@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="507.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.Rehabilitation_Officer.RecordProgramCompletionViewController">
+   <children>
+      <Text layoutX="65.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prisoner ID" />
+      <TextField fx:id="RecordProgramCompletionPrisonerIdTextField" layoutX="159.0" layoutY="59.0" />
+      <Text layoutX="65.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Program Name" />
+      <TextField fx:id="RecordProgramCompletionProgramNameTextField" layoutX="159.0" layoutY="105.0" />
+      <Text layoutX="409.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Outcome" />
+      <TextArea fx:id="RecordProgramCompletionOutcomeTextArea" layoutX="490.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" />
+      <DatePicker fx:id="RecordProgramCompletionDateDatePicker" layoutX="147.0" layoutY="164.0" promptText="Completion date" />
+      <Button layoutX="318.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleRecordProgramCompletionSaveCompletionButton" text="Save Completion" />
+   </children>
+</AnchorPane>

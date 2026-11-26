@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="506.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.Visitor.ScheduleVisitViewController">
+   <children>
+      <Button layoutX="348.0" layoutY="368.0" mnemonicParsing="false" onAction="#handleScheduleButton" text="Schedule" />
+      <ComboBox fx:id="ApprovedPrisonerIDComboBox" layoutX="38.0" layoutY="76.0" prefHeight="26.0" prefWidth="161.0" promptText="Approved Prisoner ID" />
+      <DatePicker fx:id="ScheduleVisitVisitDateDatePicker" layoutX="37.0" layoutY="165.0" promptText="Visit Date" />
+      <ComboBox fx:id="VisitTimeComboBox" layoutX="50.0" layoutY="253.0" prefWidth="150.0" promptText="Visit Time" />
+   </children>
+</AnchorPane>

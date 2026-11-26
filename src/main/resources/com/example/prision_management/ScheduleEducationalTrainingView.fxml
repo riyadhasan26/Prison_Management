@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="489.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.ScheduleEducationalTrainingViewController">
+   <children>
+      <Text layoutX="51.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Program Name" />
+      <TextField fx:id="ScheduleEducationalTrainingProgramNameTextField" layoutX="146.0" layoutY="45.0" />
+      <Text layoutX="51.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instructor Name" />
+      <TextField fx:id="ScheduleEducationalTrainingInstructorNameTextField" layoutX="163.0" layoutY="79.0" />
+      <DatePicker fx:id="ScheduleEducationalTrainingProgramDateDatePicker" layoutX="151.0" layoutY="114.0" promptText="Date Of Program" />
+      <TextField fx:id="ScheduleEducationalTrainingTimeTextField" layoutX="94.0" layoutY="151.0" />
+      <Text layoutX="51.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time" />
+      <TextField fx:id="ScheduleEducationalTrainingPrisonerIdTextField" layoutX="146.0" layoutY="199.0" />
+      <Text layoutX="51.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prisoner ID" />
+      <Button layoutX="287.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleScheduleEducationalTrainingSaveButton" text="Save" />
+   </children>
+</AnchorPane>

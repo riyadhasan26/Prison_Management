@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="511.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.AssignPrisonerViewController">
+   <children>
+      <Text layoutX="51.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prisoner ID" />
+      <TextField fx:id="AssignPrisonerPrisonerIdTextField" layoutX="130.0" layoutY="56.0" />
+      <Text layoutX="57.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Program Name" />
+      <TextField fx:id="AssignPrisonerPrisonerNameTextField" layoutX="147.0" layoutY="106.0" />
+      <Button layoutX="138.0" layoutY="243.0" mnemonicParsing="false" onAction="#handleAssignPrisonerAssignButton" text="Assign" />
+      <TextField fx:id="AssignPrisonerSearchPrisonerIdTextField" layoutX="546.0" layoutY="56.0" />
+      <Text layoutX="458.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prisoner ID" />
+      <Button layoutX="534.0" layoutY="115.0" mnemonicParsing="false" onAction="#handleAssignPrisonerSearchAndLoadTableButton" text="Search &amp; load table" />
+      <TableView fx:id="AssignPrisonerTableView" layoutX="14.0" layoutY="288.0" prefHeight="200.0" prefWidth="730.0">
+        <columns>
+          <TableColumn fx:id="AssignPrisonerPrisonerIdCol" prefWidth="224.7999906539917" text="Prisoner ID" />
+          <TableColumn fx:id="AssignPrisonerPrisonerNameCol" minWidth="8.000030517578125" prefWidth="239.1999969482422" text="Program Name" />
+            <TableColumn fx:id="AssignPrisonerProgramDateCol" minWidth="8.000030517578125" prefWidth="263.199951171875" text="Program Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

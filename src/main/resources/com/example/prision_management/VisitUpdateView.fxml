@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="435.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.VisitUpdateViewController">
+   <children>
+      <TableView fx:id="VisitUpdateTableview" layoutX="2.0" layoutY="-1.0" prefHeight="362.0" prefWidth="678.0">
+        <columns>
+          <TableColumn fx:id="VisitUpdateRequestIdCol" prefWidth="250.4000244140625" text="Request Id" />
+          <TableColumn fx:id="VisitUpdateIsUpdatedBeforeCol" prefWidth="234.39996337890625" text="Is Updated Before" />
+            <TableColumn fx:id="VisitUpdateStatusCol" prefWidth="193.5999755859375" text="Status" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

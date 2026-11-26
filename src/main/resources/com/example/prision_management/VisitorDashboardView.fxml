@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="506.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.VisitorDashboardViewController">
+   <children>
+      <Text layoutX="327.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visitor Dashboard" wrappingWidth="170.74627685546875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="48.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleRequestPrisonVisitButton" text="Request Prison Visit" />
+      <Button layoutX="586.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleScheduleVisitButton" text="Schedule Visit" />
+      <Button layoutX="44.0" layoutY="159.0" mnemonicParsing="false" onAction="#handleCheckVisitApprovalButton" text="Check Visit Approval" />
+      <Button layoutX="591.0" layoutY="146.0" mnemonicParsing="false" onAction="#handleVisitUpdateButton" text="Visit Update" />
+      <Button layoutX="58.0" layoutY="227.0" mnemonicParsing="false" onAction="#handleVisitHourButton" text="Visiting Hour" />
+      <Button layoutX="591.0" layoutY="227.0" mnemonicParsing="false" onAction="#handleEntryRequirementButton" text="Entry Requirement" />
+      <Button layoutX="49.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleUpdataeVisitorInfoButton" text="Update Visitor Info" />
+      <Button layoutX="591.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleVisitHistoryButton" text="Visit History" />
+   </children>
+</AnchorPane>

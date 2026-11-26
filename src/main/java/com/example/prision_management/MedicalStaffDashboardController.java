@@ -41,18 +41,7 @@ public class MedicalStaffDashboardController
         }
     }
 
-    @javafx.fxml.FXML
-    public void updateMedicalRecordButton(ActionEvent actionEvent) {
 
-        try{
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("UpdateMedicalRecords.fxml"));
-            Node node = loader.load();
-            mainPane.getChildren().setAll(node);
-        }
-        catch (Exception e){
-            e.printStackTrace();
-        }
-    }
 
     @javafx.fxml.FXML
     public void viewMedicalHistoryButton(ActionEvent actionEvent) {

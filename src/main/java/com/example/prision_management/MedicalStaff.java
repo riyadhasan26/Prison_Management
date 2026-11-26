@@ -46,6 +46,9 @@ public class MedicalStaff extends Staff implements Serializable {
     public void reportEmergency(EmergencyReport e) {
         emergencyList.add(e);
     }
+
+
+
     public ArrayList<TreatmentRecord> viewMedicalHistory(String prisonerId) {
         ArrayList<TreatmentRecord> history = new ArrayList<>();
         for (TreatmentRecord t : treatmentList) {

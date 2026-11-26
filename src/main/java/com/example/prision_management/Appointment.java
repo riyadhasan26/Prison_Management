@@ -1,9 +1,10 @@
 package com.example.prision_management;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Appointment {
+public class Appointment implements Serializable {
 
     private String prisonerId;
     private LocalDate appointmentDate;

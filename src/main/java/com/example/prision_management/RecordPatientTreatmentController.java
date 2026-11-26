@@ -42,14 +42,14 @@ public class RecordPatientTreatmentController
     @javafx.fxml.FXML
     public void validateAndSaveTreatment(ActionEvent actionEvent) {
 
-        if (inmateIDTextField.getText().equals("") || diagnosisTextField.getText().equals("")
+        if (inmateIdTextFIeld.getText().equals("") || diagnosisTextField.getText().equals("")
                 || treatmentProvidedTextField.getText().equals("") || treatmentDateDatePicker.getValue() == null) {
             showAlert("Please fill in all fields");
             return;
         }
 
         TreatmentRecord t = new TreatmentRecord(
-                inmateIDTextField.getText(),
+                inmateIdTextFIeld.getText(),
                 diagnosisTextField.getText(),
                 treatmentProvidedTextField.getText(),
                 treatmentDateDatePicker.getValue()

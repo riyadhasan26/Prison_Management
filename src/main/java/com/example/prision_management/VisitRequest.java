@@ -1,8 +1,9 @@
 package com.example.prision_management;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class VisitRequest {
+public class VisitRequest implements Serializable {
 
 
         private String requestId;

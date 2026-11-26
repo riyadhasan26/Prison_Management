@@ -1,8 +1,9 @@
 package com.example.prision_management;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class LegalRepresentitive extends User {
+public class LegalRepresentitive extends User implements Serializable {
 
     private ArrayList<VisitRequest> visitList = new ArrayList<>();
     private ArrayList<Consultation> consultationList = new ArrayList<>();

@@ -1,6 +1,8 @@
 package com.example.prision_management;
 
-public class EmergencyReport {
+import java.io.Serializable;
+
+public class EmergencyReport implements Serializable {
 
     private String prisonerId;
     private String symptoms;

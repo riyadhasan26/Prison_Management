@@ -1,6 +1,8 @@
 package com.example.prision_management;
 
-public abstract class Staff extends User {
+import java.io.Serializable;
+
+public abstract class Staff extends User implements Serializable {
 
     protected String staffID;
     protected String position;

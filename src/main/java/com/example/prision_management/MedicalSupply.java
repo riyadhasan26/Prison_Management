@@ -1,6 +1,8 @@
 package com.example.prision_management;
 
-public class MedicalSupply {
+import java.io.Serializable;
+
+public class MedicalSupply implements Serializable {
 
     private String supplyName;
     private int quantity;

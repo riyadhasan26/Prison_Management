@@ -1,6 +1,8 @@
 package com.example.prision_management;
 
-public abstract class User implements Authenticatable {
+import java.io.Serializable;
+
+public abstract class User implements Authenticatable, Serializable {
 
     protected  String userID;
     protected  String password;

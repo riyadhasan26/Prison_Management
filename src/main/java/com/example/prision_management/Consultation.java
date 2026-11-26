@@ -1,8 +1,9 @@
 package com.example.prision_management;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Consultation {
+public class Consultation implements Serializable {
 
     private String prisonerId;
     private LocalDate consultationDate;

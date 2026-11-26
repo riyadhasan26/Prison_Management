@@ -51,7 +51,7 @@ public class RequestInmateVisitController
             return;
         }
 
-        // count the existing requests so the new one gets the next ID
+
         int count = 0;
 
         try {

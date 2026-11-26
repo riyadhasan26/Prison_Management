@@ -12,7 +12,7 @@ public class AppendableObjectOutputStream extends ObjectOutputStream {
 
     @Override
     protected void writeStreamHeader() throws IOException {
-        // Reset the stream instead of writing a new header
+
         reset();
     }
 }

@@ -1,9 +1,10 @@
 package com.example.prision_management;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class MedicalStaff extends Staff {
+public class MedicalStaff extends Staff implements Serializable {
 
     private ArrayList<TreatmentRecord> treatmentList = new ArrayList<>();
     private ArrayList<Appointment> appointmentList = new ArrayList<>();

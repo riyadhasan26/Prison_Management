@@ -18,6 +18,14 @@ public class UpdateMedicalRecordsController
 {
     @javafx.fxml.FXML
     private AnchorPane mainPane;
+    @javafx.fxml.FXML
+    private DatePicker treatmentDateDatePicker;
+    @javafx.fxml.FXML
+    private TextField newDiagnosisTextField;
+    @javafx.fxml.FXML
+    private TextField inmateIdTextField;
+    @javafx.fxml.FXML
+    private TextField newTreatmentTextField;
 
     private void showAlert(String s){
         Alert a = new Alert(Alert.AlertType.ERROR);
@@ -38,7 +46,7 @@ public class UpdateMedicalRecordsController
     @javafx.fxml.FXML
     public void updateButton(ActionEvent actionEvent) {
 
-        if (inmateIDTextField.getText().equals("") || newDiagnosisTextField.getText().equals("")
+        if (inmateIdTextField.getText().equals("") || newDiagnosisTextField.getText().equals("")
                 || newTreatmentTextField.getText().equals("") || treatmentDateDatePicker.getValue() == null) {
             showAlert("Please fill in all fields");
             return;
@@ -64,7 +72,7 @@ public class UpdateMedicalRecordsController
             ois.close();
 
             for (TreatmentRecord t : treatmentList) {
-                if (t.getPrisonerId().equals(inmateIDTextField.getText())
+                if (t.getPrisonerId().equals(inmateIdTextField.getText())
                         && t.getTreatmentDate().equals(treatmentDateDatePicker.getValue())) {
                     t.setDiagnosis(newDiagnosisTextField.getText());
                     t.setTreatmentProvided(newTreatmentTextField.getText());

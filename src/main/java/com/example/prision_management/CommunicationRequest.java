@@ -1,6 +1,8 @@
 package com.example.prision_management;
 
-public class CommunicationRequest {
+import java.io.Serializable;
+
+public class CommunicationRequest implements Serializable {
 
     private String prisonerId;
     private String channel;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.staffInformationViewController">
+   <children>
+      <Label layoutX="57.0" layoutY="49.0" text="staff member:" />
+      <TextField fx:id="staffMemberTF" layoutX="144.0" layoutY="45.0" />
+      <Label layoutX="57.0" layoutY="88.0" text="id:" />
+      <TextField fx:id="idTF" layoutX="80.0" layoutY="84.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.recordEmergencyIncidentViewController">
+   <children>
+      <Label layoutX="59.0" layoutY="43.0" text="emergency id:" />
+      <TextField fx:id="emergencyIdTF" layoutX="151.0" layoutY="39.0" />
+      <Label layoutX="66.0" layoutY="74.0" text="emergency type:" />
+      <ComboBox fx:id="emergencyTypeCB" layoutX="172.0" layoutY="70.0" prefWidth="150.0" />
+      <Label layoutX="66.0" layoutY="109.0" text="emergency date:" />
+      <DatePicker fx:id="emergencyDateDP" layoutX="160.0" layoutY="105.0" />
+   </children>
+</AnchorPane>

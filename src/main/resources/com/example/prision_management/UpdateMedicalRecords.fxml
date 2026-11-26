@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.UpdateMedicalRecordsController">
+   <children>
+      <Text layoutX="236.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Medical Records" underline="true" />
+      <Text layoutX="113.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inmate ID" />
+      <Text layoutX="99.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Diagnosis" />
+      <TextField fx:id="inmateIdTextField" layoutX="226.0" layoutY="87.0" />
+      <TextField fx:id="newDiagnosisTextField" layoutX="226.0" layoutY="130.0" />
+      <Button layoutX="268.0" layoutY="265.0" mnemonicParsing="false" onAction="#updateButton" text="Update" />
+      <Button layoutX="274.0" layoutY="351.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+      <Text layoutX="98.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Treatment" />
+      <Text layoutX="97.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Treatment Date" />
+      <TextField fx:id="newTreatmentTextField" layoutX="226.0" layoutY="179.0" />
+      <DatePicker fx:id="treatmentDateDatePicker" layoutX="208.0" layoutY="224.0" />
+   </children>
+</AnchorPane>

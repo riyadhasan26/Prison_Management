@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.TrackMedicalSuppliesController">
+   <children>
+      <Text layoutX="240.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Track Medical Supplies" />
+      <Text layoutX="138.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medical Supply" />
+      <Text layoutX="138.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity" />
+      <TextField fx:id="quantityTextField" layoutX="245.0" layoutY="122.0" />
+      <ComboBox fx:id="medicalSupplyComboBox" layoutX="245.0" layoutY="75.0" prefWidth="150.0" />
+      <Button layoutX="253.0" layoutY="188.0" mnemonicParsing="false" onAction="#updateSupplyButton" text="Update" />
+      <Button layoutX="253.0" layoutY="313.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+   </children>
+</AnchorPane>

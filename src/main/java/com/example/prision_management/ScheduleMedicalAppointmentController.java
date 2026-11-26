@@ -37,9 +37,9 @@ public class ScheduleMedicalAppointmentController
 
     @javafx.fxml.FXML
     public void initialize() {
-        // sample inmates, replace with the Prisoner data from the Record Officer section
+
         inmateComboBox.getItems().addAll("P1001", "P1002", "P1003");
-        // sample staff, replace with the staff data from the Record Officer section
+
         medicalStaffComboBox.getItems().addAll("S1", "S2");
     }
 

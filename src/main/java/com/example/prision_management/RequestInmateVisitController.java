@@ -38,7 +38,7 @@ public class RequestInmateVisitController
 
     @javafx.fxml.FXML
     public void initialize() {
-        // sample inmates, replace with the Prisoner data from the Record Officer section
+
         inmateComboBox.getItems().addAll("P1001", "P1002", "P1003");
     }
 

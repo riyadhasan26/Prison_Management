@@ -1,4 +1,4 @@
-package com.example.prision_management;
+package com.example.prision_management.Visitor;
 
 public class VisitorDashboardViewController
 {

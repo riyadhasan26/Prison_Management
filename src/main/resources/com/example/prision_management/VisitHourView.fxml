@@ -6,7 +6,7 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="506.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.VisitHourViewController">
+<AnchorPane prefHeight="506.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.Visitor.VisitHourViewController">
    <children>
       <DatePicker fx:id="VisitHourVisitDateDatePicker" layoutX="246.0" layoutY="89.0" promptText="Visit Date" />
       <Button layoutX="308.0" layoutY="142.0" mnemonicParsing="false" onAction="#handleVisitHourSearchButton" text="Search" />

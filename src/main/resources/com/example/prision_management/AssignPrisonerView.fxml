@@ -7,13 +7,13 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="511.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.AssignPrisonerViewController">
+<AnchorPane prefHeight="511.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.Rehabilitation_Officer.AssignPrisonerViewController">
    <children>
       <Text layoutX="51.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prisoner ID" />
       <TextField fx:id="AssignPrisonerPrisonerIdTextField" layoutX="130.0" layoutY="56.0" />
       <Text layoutX="57.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Program Name" />
       <TextField fx:id="AssignPrisonerPrisonerNameTextField" layoutX="147.0" layoutY="106.0" />
-      <Button layoutX="138.0" layoutY="243.0" mnemonicParsing="false" onAction="#handleAssignPrisonerAssignButton" text="Assign" />
+      <Button layoutX="121.0" layoutY="243.0" mnemonicParsing="false" onAction="#handleAssignPrisonerAssignButton" text="Assign" />
       <TextField fx:id="AssignPrisonerSearchPrisonerIdTextField" layoutX="546.0" layoutY="56.0" />
       <Text layoutX="458.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prisoner ID" />
       <Button layoutX="534.0" layoutY="115.0" mnemonicParsing="false" onAction="#handleAssignPrisonerSearchAndLoadTableButton" text="Search &amp; load table" />

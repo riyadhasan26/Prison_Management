@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="507.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.RecordProgramCompletionViewController">
+<AnchorPane prefHeight="507.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.Rehabilitation_Officer.RecordProgramCompletionViewController">
    <children>
       <Text layoutX="65.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prisoner ID" />
       <TextField fx:id="RecordProgramCompletionPrisonerIdTextField" layoutX="159.0" layoutY="59.0" />

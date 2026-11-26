@@ -5,7 +5,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="543.0" prefWidth="798.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.RehabilitationOfficerDashboardViewController">
+<AnchorPane prefHeight="543.0" prefWidth="798.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.Rehabilitation_Officer.RehabilitationOfficerDashboardViewController">
     <children>
         <Text layoutX="248.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rehabilitation Officer Dashboard">
             <font>

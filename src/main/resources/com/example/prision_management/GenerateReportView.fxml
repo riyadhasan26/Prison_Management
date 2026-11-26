@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="488.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.GenerateReportViewController">
+<AnchorPane prefHeight="488.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.Rehabilitation_Officer.GenerateReportViewController">
    <children>
       <Text layoutX="58.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prisoner ID" />
       <TextField fx:id="GenerateReportPrisonerIdTextField" layoutX="133.0" layoutY="97.0" />

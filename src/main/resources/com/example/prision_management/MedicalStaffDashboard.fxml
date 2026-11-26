@@ -7,13 +7,12 @@
 <AnchorPane fx:id="mainPane" prefHeight="651.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prision_management.MedicalStaffDashboardController">
    <children>
       <Button layoutX="85.0" layoutY="162.0" mnemonicParsing="false" onAction="#recordTreatmentButton" text="Record Treatment" />
-      <Button layoutX="450.0" layoutY="162.0" mnemonicParsing="false" onAction="#updateMedicalRecordButton" text="Update Medical Record" />
       <Button layoutX="78.0" layoutY="238.0" mnemonicParsing="false" onAction="#scheduleAppointmentButton" text="Schedule Appointment" />
       <Button layoutX="82.0" layoutY="313.0" mnemonicParsing="false" onAction="#recordMedicationButton" text="Record Medication" />
       <Button layoutX="83.0" layoutY="385.0" mnemonicParsing="false" onAction="#trackMedicalSuppliesButton" text="Track Medical Supplies" />
       <Button layoutX="83.0" layoutY="457.0" mnemonicParsing="false" onAction="#reportEmergencyButton" text="Report Emergency" />
       <Button layoutX="83.0" layoutY="531.0" mnemonicParsing="false" onAction="#viewMedicalHistoryButton" text="View Medical History" />
-      <Button layoutX="450.0" layoutY="238.0" mnemonicParsing="false" onAction="#generateReportButton" text="Generate Report" />
+      <Button layoutX="476.0" layoutY="162.0" mnemonicParsing="false" onAction="#generateReportButton" text="Generate Report" />
       <Button layoutX="484.0" layoutY="445.0" mnemonicParsing="false" onAction="#signOutButton" text="Sign Out" />
       <Text layoutX="353.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medical Staff Dashboard" underline="true" wrappingWidth="130.04296875" />
    </children>

@@ -65,7 +65,7 @@ public class ScheduleLegalVisitController
             return;
         }
 
-        // saving the date needs the visit schedule class from the Visitor section
+
         showMessage("Visit " + approvedVisitComboBox.getValue() + " scheduled for " + visitDateDatePicker.getValue());
     }
 

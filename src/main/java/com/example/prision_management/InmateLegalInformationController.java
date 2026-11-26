@@ -23,7 +23,7 @@ public class InmateLegalInformationController
 
     @javafx.fxml.FXML
     public void initialize() {
-        // sample inmates, replace with the Prisoner data from the Record Officer section
+
         inmateComboBox.getItems().addAll("P1001", "P1002", "P1003");
     }
 
@@ -35,7 +35,7 @@ public class InmateLegalInformationController
             return;
         }
 
-        // the case details come from the Record Officer section, so this is sample text for now
+
         caseInformationLabel.setText("Case information for inmate " + inmateComboBox.getValue());
     }
 

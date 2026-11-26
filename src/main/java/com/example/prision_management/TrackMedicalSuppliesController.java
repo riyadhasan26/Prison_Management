@@ -33,7 +33,7 @@ public class TrackMedicalSuppliesController
 
     @javafx.fxml.FXML
     public void initialize() {
-        // sample supplies
+
         medicalSupplyComboBox.getItems().addAll("Bandages", "Painkillers", "Gloves");
     }
 

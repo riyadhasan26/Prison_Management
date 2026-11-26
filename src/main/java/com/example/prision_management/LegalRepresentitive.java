@@ -32,8 +32,6 @@ public class LegalRepresentitive extends User implements Serializable {
         consultationList.add(c);
     }
 
-    // scheduleLegalVisit, viewNotifications, viewVisitingRequirements and
-    // viewLegalInfo depend on the other users' classes, so they are added later.
 
 
 

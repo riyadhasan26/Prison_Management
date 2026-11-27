@@ -1,6 +1,7 @@
 module com.example.prision_management {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.graphics;
 
 
     opens com.example.prision_management to javafx.fxml;
